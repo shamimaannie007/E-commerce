@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul, ol{
+    list-style: none;
+
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+#menu{
+    padding-top: 52px;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainmenu ul{
+    display: flex;
+    gap: 59px;
+}
+.mainmenu ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    transition: all linear .3s;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+
+}
+.mainmenu ul li a:hover{
+    color: #FDBB57;
+}
+.menubutton{
+    display: flex;
+    gap: 10px;
+}
+.menubutton a{
+    width: 120px;
+    height: 57px;
+    background: #FDBB57;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 57px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    border: 1px solid #FDBB57;
+    transition: all linear .4s;
+}
+.menubutton a:hover{
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
+}
+#banner{
+    padding-top: 112px;
+}
+.banner_text_col h1{
+    width: 437px;
+    /* height: 263px; */
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    color: #000000;
+}
+.banner_text_col p{
+    width: 531px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 38px;
+    color: #000000;
+    margin-bottom: 76px;
+
+}
+.banner_text_col a{
+    width: 319px;
+    height: 86px;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    line-height: 86px;
+}
+.banner_text_col a:active{
+    transform: scale(1.1);
+}
+.banner_image_col{
+    
+}
+.banner_row{
+    display: flex;
+    justify-content: space-between;
+}
+#collection{
+    padding-top: 100px;
+    padding: 100px;
+}
+.collection_heading h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #000000;
+    text-align: center;    
+
+}
+.collection_heading p{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400px;
+    margin-top: 41px;
+    margin-bottom: 40px;
+
+}
+.collection_cards{
+    display: flex;
+    gap: 98px;
+}
+.single_cards{
+    width: 349px;
+    height: 402px;
+    background: url(../images/collection_1.png);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.single_cards a{
+    width: 315px;
+    height: 57px;
+    background: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 57px;
+    bottom: 40px;
+    left: -417px;
+    transition: all linear .4s;
+}
+.single_cards:hover a{
+    left: 17px;
+}
+.single_cards2{
+    width: 349px;
+    height: 402px;
+    background: url(../images/Sweats.png);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.single_cards3{
+    width: 349px;
+    height: 402px;
+    background: url(../images/Sweats\ \(1\).png);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#Fashion{
+    position: relative;
+    padding: 212px 212px 212px 212px;
+    margin-bottom: 94px;
+}
+.fashion_picture{
+    position: absolute;
+    top: -130px;
+    left: 10px;
+
+}
+
+.Fashion_row{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.fashion_head h2{
+    width: 386px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #000000;
+}
+.fashion_text p{
+    width: 443px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-top: 63px;
+    margin-bottom: 136px;
+
+
+}
+.fashion_counter{
+    width: 793px;
+    padding: 75px 90px 70px 29px;
+    background: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+}
+.single_counter_text h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: #000000;
+
+}
+.single_counter_text h4{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    margin-top: 28px;
+
+}
+.fashion_counter .fashion_line{
+    width: 1px;
+    height: 143px;
+    display: inline-block;
+    background: #000000;
+}
+.single_counter{
+    display: flex;
+    gap: 27px;
+    margin-left: 28px;
+}
+#footer{
+    padding-top: 35px;
+    padding-bottom: 192px;
+    background: #CFA485;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_text h2{
+    width: 315px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+.footer_text p{
+    width: 437px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 43px;
+    font-family: "Frank Ruhl Libre", serif;
+
+
+}
+.footer_text a{
+    margin-top: 40px;
+    width: 319px;
+    height: 86px;
+    font-family: "Poppins", sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 86px;
+    border-radius: 10px;
+    transition: all linear .4s;
+
+}
+.footer_text a:active{
+    transform: scale(1.1);
+}
+.single_footer_card{
+    width: 366px;
+    /* height: 551px; */
+    background: #FFFFFF;
+    border-top-right-radius: 55px;
+    border-top-left-radius: 55px;
+}
+.card_stars ul{
+    display: flex;
+    gap: 7px;
+
+
+}
+.card_stars ul li{
+    color: #FDBB57;
+    padding-left: 22px;
+}
+.footer_head_text h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    /* margin: 10px 0; */
+    /* padding-left: 22px; */
+}
+.prices p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+.prices{
+    display: flex;
+    gap: 20px;
+}
+.one{
+    color: #C4C4C4;
+}
+.footer_card_text{
+    padding-left: 22px;
+    padding-top: 14px;
+}
+.footer_card{
+    display: flex;
+    gap: 31px;
+}
+.single_footer_card2{
+    width: 366px;
+    background: #FFFFFF;
+    border-top-right-radius: 55px;
+    border-top-left-radius: 55px;
+}
+.footer_head_text2 h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0;
+    padding-left: 22px;
+}
+.prices2{
+    display: flex;
+    gap: 20px;
+    padding-left: 22px;
+}
+.two{
+    color: #C4C4C4;
+
+}
+.prices2 p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
